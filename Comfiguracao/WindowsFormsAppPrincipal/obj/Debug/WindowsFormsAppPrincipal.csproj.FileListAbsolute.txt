@@ -15,3 +15,5 @@ C:\Users\nsistema\Documents\Git\lucianom29\Gestao\Comfiguracao\WindowsFormsAppPr
 C:\Users\nsistema\Documents\Git\lucianom29\Gestao\Comfiguracao\WindowsFormsAppPrincipal\bin\Debug\Models.pdb
 C:\Users\nsistema\Documents\Git\lucianom29\Gestao\Comfiguracao\WindowsFormsAppPrincipal\bin\Debug\DAL.pdb
 C:\Users\nsistema\Documents\Git\lucianom29\Gestao\Comfiguracao\WindowsFormsAppPrincipal\obj\Debug\WindowsFormsAppPrincipal.csproj.CopyComplete
+C:\Users\nsistema\Documents\Git\lucianom29\Gestao\Comfiguracao\WindowsFormsAppPrincipal\obj\Debug\WindowsFormsAppPrincipal.FormBuscarUsuario.resources
+C:\Users\nsistema\Documents\Git\lucianom29\Gestao\Comfiguracao\WindowsFormsAppPrincipal\obj\Debug\WindowsFormsAppPrincipal.FormPrincipal.resources
