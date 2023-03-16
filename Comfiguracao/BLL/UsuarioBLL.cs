@@ -7,10 +7,14 @@ namespace BLL
 {
     public class UsuarioBLL
     {
-
-
-        public void Inserir(Usuario _usuario)
+        public void Inserir(Usuario _usuario,string _confirmacaoDeSenha)
         {
+            ValidarDados(_usuario, _confirmacaoDeSenha);
+
+            Usuario usuario = new Usuario();
+            usuario = BuscarPorNomeUsuario(_usuario.NomeUsuario);
+
+
             if (_usuario.NomeUsuario.Length <= 3)
                 throw new Exception("O nome de ususrio deve ter mais de tres caracteres.");
 
@@ -42,11 +46,11 @@ namespace BLL
             UsuarioDAL usuarioDAL = new UsuarioDAL();
             return usuarioDAL.BuscarTodos();
         }
-        public void Alterar(Usuario _usuario)
+        public void Alterar(Usuario _usuario, string _confirmacaoDeSenha)
         {
 
         }
-        private static void ValidarDados(Usuario _usuario)
+        private static void ValidarDados(Usuario _usuario, string _confirmacaoDeSenha)
         {
             if (_usuario.NomeUsuario.Length <= 3 || _usuario.NomeUsuario.Length >= 50)
                 throw new Exception("O nome de usuario deve ter mais de tres caracteres.");
@@ -67,8 +71,10 @@ namespace BLL
             usuarioDAL.Excluir(_id);
         }
 
-
-
+        public Usuario BuscarPorId(int _id)
+        {
+            return new UsuarioDAL().BuscarPorId(_id);
+        }
     }
 }
 

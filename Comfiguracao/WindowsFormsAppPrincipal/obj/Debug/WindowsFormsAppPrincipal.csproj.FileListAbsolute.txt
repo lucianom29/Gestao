@@ -17,3 +17,7 @@ C:\Users\nsistema\Documents\Git\lucianom29\Gestao\Comfiguracao\WindowsFormsAppPr
 C:\Users\nsistema\Documents\Git\lucianom29\Gestao\Comfiguracao\WindowsFormsAppPrincipal\obj\Debug\WindowsFormsAppPrincipal.csproj.CopyComplete
 C:\Users\nsistema\Documents\Git\lucianom29\Gestao\Comfiguracao\WindowsFormsAppPrincipal\obj\Debug\WindowsFormsAppPrincipal.FormBuscarUsuario.resources
 C:\Users\nsistema\Documents\Git\lucianom29\Gestao\Comfiguracao\WindowsFormsAppPrincipal\obj\Debug\WindowsFormsAppPrincipal.FormPrincipal.resources
+C:\Users\nsistema\Documents\Git\lucianom29\Gestao\Comfiguracao\WindowsFormsAppPrincipal\obj\Debug\WindowsFormsAppPrincipal.FormBuscarNomeDeUsuario.resources
+C:\Users\nsistema\Documents\Git\lucianom29\Gestao\Comfiguracao\WindowsFormsAppPrincipal\obj\Debug\WindowsFormsAppPrincipal.FormBuscarUsuarios.resources
+C:\Users\nsistema\Documents\Git\lucianom29\Gestao\Comfiguracao\WindowsFormsAppPrincipal\obj\Debug\WindowsFormsAppPrincipal.FormCadastroUsuario.resources
+C:\Users\nsistema\Documents\Git\lucianom29\Gestao\Comfiguracao\WindowsFormsAppPrincipal\obj\Debug\WindowsFormsAppPrincipal.FormConsultarGrupoUsuario.resources

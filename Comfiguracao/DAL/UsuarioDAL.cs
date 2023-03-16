@@ -67,7 +67,7 @@ namespace DAL
                     while (rd.Read())
                     {
                         usuario = new Usuario();
-                        usuario.Id = Convert.ToInt32(rd["rd"]);
+                        usuario.Id = Convert.ToInt32(rd["id"]);
                         usuario.Nome = rd["Nome"].ToString();
                         usuario.CPF = rd["CPF"].ToString();
                         usuario.Email = rd["Email"].ToString();
@@ -96,5 +96,10 @@ namespace DAL
         {
             throw new NotImplementedException();
         }
+
+        public Usuario BuscarPorId(int id)
+        {
+            throw new NotImplementedException();
+        }
     }
-}
+}  

@@ -29,78 +29,68 @@
         private void InitializeComponent()
         {
             this.menuStrip1 = new System.Windows.Forms.MenuStrip();
-            this.menuStrip2 = new System.Windows.Forms.MenuStrip();
-            this.cadastroToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.ususriosToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.permissoesToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.gruposDeUsuariosToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.clientesToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.fornecedoresToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.menuStrip2.SuspendLayout();
+            this.usuariosToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.dssaaToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.saToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.ssdToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.hohiToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.usuariosToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
+            this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
             // menuStrip1
             // 
             this.menuStrip1.ImageScalingSize = new System.Drawing.Size(20, 20);
-            this.menuStrip1.Location = new System.Drawing.Point(0, 28);
+            this.menuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.usuariosToolStripMenuItem});
+            this.menuStrip1.Location = new System.Drawing.Point(0, 0);
             this.menuStrip1.Name = "menuStrip1";
-            this.menuStrip1.Size = new System.Drawing.Size(800, 24);
+            this.menuStrip1.Size = new System.Drawing.Size(800, 28);
             this.menuStrip1.TabIndex = 0;
             this.menuStrip1.Text = "menuStrip1";
             // 
-            // menuStrip2
+            // usuariosToolStripMenuItem
             // 
-            this.menuStrip2.ImageScalingSize = new System.Drawing.Size(20, 20);
-            this.menuStrip2.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.cadastroToolStripMenuItem});
-            this.menuStrip2.Location = new System.Drawing.Point(0, 0);
-            this.menuStrip2.Name = "menuStrip2";
-            this.menuStrip2.Size = new System.Drawing.Size(800, 28);
-            this.menuStrip2.TabIndex = 1;
-            this.menuStrip2.Text = "menuStrip2";
+            this.usuariosToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.usuariosToolStripMenuItem1,
+            this.dssaaToolStripMenuItem,
+            this.saToolStripMenuItem,
+            this.ssdToolStripMenuItem,
+            this.hohiToolStripMenuItem});
+            this.usuariosToolStripMenuItem.Name = "usuariosToolStripMenuItem";
+            this.usuariosToolStripMenuItem.Size = new System.Drawing.Size(82, 24);
+            this.usuariosToolStripMenuItem.Text = "Cadastro";
             // 
-            // cadastroToolStripMenuItem
+            // dssaaToolStripMenuItem
             // 
-            this.cadastroToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.ususriosToolStripMenuItem,
-            this.permissoesToolStripMenuItem,
-            this.gruposDeUsuariosToolStripMenuItem,
-            this.clientesToolStripMenuItem,
-            this.fornecedoresToolStripMenuItem});
-            this.cadastroToolStripMenuItem.Name = "cadastroToolStripMenuItem";
-            this.cadastroToolStripMenuItem.Size = new System.Drawing.Size(82, 24);
-            this.cadastroToolStripMenuItem.Text = "Cadastro";
+            this.dssaaToolStripMenuItem.Name = "dssaaToolStripMenuItem";
+            this.dssaaToolStripMenuItem.Size = new System.Drawing.Size(300, 26);
+            this.dssaaToolStripMenuItem.Text = "Grupo de usuario ";
             // 
-            // ususriosToolStripMenuItem
+            // saToolStripMenuItem
             // 
-            this.ususriosToolStripMenuItem.Name = "ususriosToolStripMenuItem";
-            this.ususriosToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
-            this.ususriosToolStripMenuItem.Text = "Ususrios";
-            this.ususriosToolStripMenuItem.Click += new System.EventHandler(this.ususriosToolStripMenuItem_Click);
+            this.saToolStripMenuItem.Name = "saToolStripMenuItem";
+            this.saToolStripMenuItem.Size = new System.Drawing.Size(300, 26);
+            this.saToolStripMenuItem.Text = "Permisões de grupo de usuario ";
             // 
-            // permissoesToolStripMenuItem
+            // ssdToolStripMenuItem
             // 
-            this.permissoesToolStripMenuItem.Name = "permissoesToolStripMenuItem";
-            this.permissoesToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
-            this.permissoesToolStripMenuItem.Text = "Permissoes ";
+            this.ssdToolStripMenuItem.Name = "ssdToolStripMenuItem";
+            this.ssdToolStripMenuItem.Size = new System.Drawing.Size(300, 26);
+            this.ssdToolStripMenuItem.Text = "Clientes";
             // 
-            // gruposDeUsuariosToolStripMenuItem
+            // hohiToolStripMenuItem
             // 
-            this.gruposDeUsuariosToolStripMenuItem.Name = "gruposDeUsuariosToolStripMenuItem";
-            this.gruposDeUsuariosToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
-            this.gruposDeUsuariosToolStripMenuItem.Text = "Grupos de Usuarios";
+            this.hohiToolStripMenuItem.Name = "hohiToolStripMenuItem";
+            this.hohiToolStripMenuItem.Size = new System.Drawing.Size(300, 26);
+            this.hohiToolStripMenuItem.Text = "Fornecedores";
             // 
-            // clientesToolStripMenuItem
+            // usuariosToolStripMenuItem1
             // 
-            this.clientesToolStripMenuItem.Name = "clientesToolStripMenuItem";
-            this.clientesToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
-            this.clientesToolStripMenuItem.Text = "Clientes";
-            // 
-            // fornecedoresToolStripMenuItem
-            // 
-            this.fornecedoresToolStripMenuItem.Name = "fornecedoresToolStripMenuItem";
-            this.fornecedoresToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
-            this.fornecedoresToolStripMenuItem.Text = "Fornecedores";
+            this.usuariosToolStripMenuItem1.Name = "usuariosToolStripMenuItem1";
+            this.usuariosToolStripMenuItem1.Size = new System.Drawing.Size(300, 26);
+            this.usuariosToolStripMenuItem1.Text = "Usuarios";
+            this.usuariosToolStripMenuItem1.Click += new System.EventHandler(this.usuariosToolStripMenuItem1_Click);
             // 
             // FormPrincipal
             // 
@@ -108,13 +98,12 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
             this.Controls.Add(this.menuStrip1);
-            this.Controls.Add(this.menuStrip2);
             this.MainMenuStrip = this.menuStrip1;
             this.Name = "FormPrincipal";
             this.Text = "Gestão";
             this.Load += new System.EventHandler(this.FormPrincipal_Load);
-            this.menuStrip2.ResumeLayout(false);
-            this.menuStrip2.PerformLayout();
+            this.menuStrip1.ResumeLayout(false);
+            this.menuStrip1.PerformLayout();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -123,13 +112,12 @@
         #endregion
 
         private System.Windows.Forms.MenuStrip menuStrip1;
-        private System.Windows.Forms.MenuStrip menuStrip2;
-        private System.Windows.Forms.ToolStripMenuItem cadastroToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem ususriosToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem permissoesToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem gruposDeUsuariosToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem clientesToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem fornecedoresToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem usuariosToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem dssaaToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem saToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem ssdToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem hohiToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem usuariosToolStripMenuItem1;
     }
 }
 
